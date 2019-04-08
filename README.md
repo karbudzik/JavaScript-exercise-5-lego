@@ -1,4 +1,4 @@
-# JavaScript exercise 4 - Clock
+# JavaScript exercise 5 - Lego color generator
 > My fifth practical project while learning JavaScript. [Click here to preview](https://karbudzik.github.io/JavaScript-exercise-5-lego-generator/) 
 > Both script and visuals created myself (no tutorials/inspirations).
 
