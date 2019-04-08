@@ -1,0 +1,180 @@
+@import url(normalize.css);
+
+@font-face {
+    font-family: 'gilroy-extrabold';
+    src: url('/gilroy-extrabold-webfont.woff2') format('woff2'),
+         url('/gilroy-extrabold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    height: 90vh;
+    background-color: #fec800;
+}
+
+/*------------------ HEADINGS --------------------*/
+
+h1, h2 {
+    text-align: center;
+    color: #201f1f;
+}
+
+h1 {
+    font-family: "gilroy-extrabold", sans-serif;
+    font-size: 80px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px #e72154;
+    margin: 30px 0px 20px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 27px;
+    margin: 0px 0px 40px;
+}
+
+/*--------------- COLOR BUTTONS -----------------*/
+
+.color-samples {
+    display: flex;
+    justify-content: center;
+}
+
+.color-samples > div {
+    height: 50px;
+    width: 97px;
+    cursor: pointer;
+  }
+
+.sample1 {
+    background-color: #94c631;
+  }
+
+.sample2 {
+    background-color: #fbfd73;
+  }
+
+.sample3 {
+    background-color: #31a5c6;
+  }
+
+.sample4 {
+    background-color: #ff6b10;
+  }
+
+.sample5 {
+    background-color: #33cc54;
+  }
+
+.sample6 {
+    background-color: #e72154;
+  }
+
+.sample7 {
+    background-color: #5a4ace;
+  }
+
+/*---------------- LEGO CUBE ------------------*/
+
+.cube-wrapper {
+    display: flex;
+    justify-content: center;
+    height: 350px;
+    margin-top: 10vh;
+}
+
+.cube {
+    width: 180px;
+    height: 205px;
+    margin: auto;
+    position: relative;
+    transform: scale(1.8, 1.7);
+    transform-origin: center;
+}
+
+.cube > figure::before {
+    content: "";
+    width: inherit;
+    height: inherit;
+    display: block;
+}
+
+.side {
+    width: 100px;
+    height: 100px;
+    margin-top: 0px;
+    position: absolute;
+}
+
+.top {
+    background: #e72154;
+    transform: rotate(-45deg) skew(15deg, 15deg);
+}
+
+.top::before {
+    background: rgba(10, 1, 0, 0.1);
+}
+
+.left {
+    background: #e72154;
+    transform: rotate(15deg) skew(15deg, 15deg) translate(-50%, 100%);
+}
+
+.left::before {
+    background: rgba(10, 1, 0, 0.2);
+}
+
+.right {
+    background: #e72154;
+    transform: rotate(-15deg) skew(-15deg, -15deg) translate(50%, 100%);
+}
+
+.right::before {
+    background: rgba(10, 1, 0, 0.4);
+}
+
+.stud {
+    width: 36px; 
+    height: 33px;
+    margin-top: 0px;
+    position: absolute;
+    border-radius: 18px / 10px;
+    background: #e72154;
+}
+
+.stud::before {
+    background: linear-gradient(to right, rgba(10,1,0,0.1) 1%, rgba(10,1,0,0.4) 70%);;
+    border-radius: inherit;
+}
+
+.cover {
+    width: 36px;
+    height: 20px;
+    position: absolute;
+    margin-top: 0px;
+    border-radius: 18px / 10px;
+    content: ""; 
+    background: #e72154;
+}
+
+.one {
+    top: 25px;
+    left: -15px;
+}
+
+.two {
+    top: 51px;
+    left: 31px;
+}
+
+.three {
+    top: 0px;
+    left: 31px;
+}
+
+.four {
+    top: 25px;
+    left: 77px;
+}
+

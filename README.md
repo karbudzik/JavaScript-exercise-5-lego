@@ -1,0 +1,12 @@
+# JavaScript exercise 4 - Clock
+> My fifth practical project while learning JavaScript. [Click here to preview](https://karbudzik.github.io/JavaScript-exercise-5-lego-generator/) 
+> Both script and visuals created myself (no tutorials/inspirations).
+
+
+## Screenshots
+![Lego_generator_screenshot](/screen.jpg)
+
+## Technologies
+* HTML5.2
+* plain CSS / no frameworks
+* plain JavaScript / no frameworks
